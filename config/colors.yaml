@@ -1,0 +1,13 @@
+# Reference HSV thresholds. Calibrate under the actual camera and lighting.
+colors:
+  red:
+    - lower: [0, 100, 80]
+      upper: [10, 255, 255]
+    - lower: [170, 100, 80]
+      upper: [179, 255, 255]
+  green:
+    - lower: [35, 70, 60]
+      upper: [85, 255, 255]
+  blue:
+    - lower: [90, 80, 60]
+      upper: [135, 255, 255]
